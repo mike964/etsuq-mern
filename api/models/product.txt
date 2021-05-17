@@ -1,0 +1,9 @@
+
+
+name : "x"
+category : "x"
+keywords : []
+specs : {cpu: , weight,  ...}
+price
+
+suppliers: [{store_id},{store_id}]
