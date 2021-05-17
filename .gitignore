@@ -2,7 +2,7 @@
 node_modules
 /node_modules
 /client/node_modules
-.text
+.txt
 
 # production
 /frontend/build
