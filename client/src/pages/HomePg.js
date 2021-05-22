@@ -1,4 +1,5 @@
 import React from 'react'
+import PaginationBox from '../components/PaginationBox'
 import ProductCard from '../components/product/ProductCard'
 import { products } from '../mock-data/prodcuts'
 
@@ -21,6 +22,16 @@ const HomePg = () => {
         {products.map((el) => (
           <ProductCard product={el} />
         ))}
+      </div>
+
+      <div className="mt-3">
+        <PaginationBox
+          // pages={ pages }
+          pages={3}
+          page={1}
+          //    page={ page }
+          //  keyword={ keyword ? keyword : '' }
+        />
       </div>
     </div>
   )

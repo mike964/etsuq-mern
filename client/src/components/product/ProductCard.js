@@ -8,18 +8,13 @@ const ProductCard = ({ product }) => {
     price,
   } = product
   return (
-    <div className="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
+    <div className=" col-md-4 col-sm-6 px-2 mb-4">
       <div className="card product-card">
         <ProductCardActions />
         {/* <span className="badge bg-danger badge-shadow">Sale</span> */}
 
         <div className="product-img-box">
-          <a
-            className="card-img-top d-block overflow-hidden"
-            href="shop-single-v2.html"
-          >
-            <img src={imageUrl} alt="Product" className="product-img" />
-          </a>
+          <img src={imageUrl} alt="Product" className="product-img" />
         </div>
         <div className="card-body py-2">
           <a className="product-meta d-block fs-xs pb-1" href="#">
