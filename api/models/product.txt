@@ -4,6 +4,12 @@ name : "x"
 category : "x"
 keywords : []
 specs : {cpu: , weight,  ...}
-price
-
-suppliers: [{store_id},{store_id}]
+price :
+variations : {
+  storage : ['64gb' , '128gb, ],
+  cpu : ['ci3, ci5, ci7 , 'amd'],
+  size : [],
+  type: [],
+  color: ["black" , "white" , 'red']
+}
+sellers: [store_id ]

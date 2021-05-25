@@ -2,7 +2,7 @@
 node_modules
 /node_modules
 /client/node_modules
-.txt
+
 
 # production
 /frontend/build
@@ -10,3 +10,4 @@ node_modules
 # misc
 .DS_Store
 .env
+.txt

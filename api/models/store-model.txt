@@ -1,0 +1,10 @@
+
+
+id 
+name {}
+address (string)
+address_obj : {}
+products : []
+city
+coordinates 
+slug
