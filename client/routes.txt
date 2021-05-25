@@ -1,0 +1,9 @@
+
+/
+/homepage
+
+etsuq.com/shop_slug   (public)
+
+etsuq.com/product/slug_name/product_id
+
+etsuq.com/register (login is modal)

@@ -4,12 +4,12 @@ import Searchbar from './Searchbar'
 
 const Header = () => {
   return (
-    <header className="shadow-sm  mb-3">
-      <div className="row bg-w">
+    <header className="header mb-3 bg-white border-bottom box-shadow">
+      <div className="row bg-ww bg-dark border-bottom">
         <div className="col-3 pt-3 center">
-          <span className="em-20 boldd dodgblue">
+          <a href="/" className="navbar-brand em-20 boldd white">
             ETSUQ <i className="fas fa-check-circle" />
-          </span>
+          </a>
         </div>
         <div className="col pt-3">
           <Searchbar />
@@ -18,7 +18,32 @@ const Header = () => {
           <AuthBtns />
         </div>
       </div>
-      <div className="x"></div>
+      <div className="row">
+        <div className="x">
+          <div className="nav-scroller bg-white box-shadow">
+            <nav className="nav nav-underline">
+              <a className="nav-link active" href="#">
+                Dashboard
+              </a>
+              <a className="nav-link" href="#">
+                Register store
+              </a>
+              <a className="nav-link" href="#">
+                Explore
+              </a>
+              <a className="nav-link" href="#">
+                Suggestions
+              </a>
+              <a className="nav-link" href="#">
+                Link
+              </a>
+              <a className="nav-link" href="#">
+                Link
+              </a>
+            </nav>
+          </div>
+        </div>
+      </div>
     </header>
   )
 }

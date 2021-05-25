@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ProductCardActions from './ProductCardActions'
 
 const ProductCard = ({ product }) => {
@@ -9,21 +10,23 @@ const ProductCard = ({ product }) => {
   } = product
   return (
     <div className=" col-md-4 col-sm-6 px-2 mb-4">
-      <div className="card product-card">
+      <div className="card product-card my-3 p-3 rounded text-center">
         <ProductCardActions />
         {/* <span className="badge bg-danger badge-shadow">Sale</span> */}
 
         <div className="product-img-box">
-          <img src={imageUrl} alt="Product" className="product-img" />
+          <Link to={`/product/slugg/${product.asin}`}>
+            <img src={imageUrl} alt="Product" className="product-img" />
+          </Link>
         </div>
         <div className="card-body py-2">
-          <a className="product-meta d-block fs-xs pb-1" href="#">
-            Computers
-          </a>
           <div className="x" style={{ maxHeight: '54px', overflow: 'hidden' }}>
-            <a className="product-title" href="shop-single-v2.html">
+            <Link
+              to={`/product/slugg/${product.asin}`}
+              className="product-title"
+            >
               {title}
-            </a>
+            </Link>
           </div>
           <div className="d-flex justify-content-between">
             <div className="product-price">

@@ -414,7 +414,7 @@ bold {
 }
 
 .border-btm {
-  border-bottom: 1px solid #888888;
+  border-bottom: 1px solid #ced4da;
 }
 .border-right {
   border-right: 1px solid #5a5a5a !important;
@@ -538,9 +538,6 @@ bold {
 
 .border-none {
   border: none !important;
-}
-.border-btm {
-  border-bottom: 1px solid #979797;
 }
 
 .labl {

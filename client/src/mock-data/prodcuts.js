@@ -1,5 +1,6 @@
 export const products = [
   {
+    _id: '18533221',
     title:
       '2020 Apple iPad Air (10.9-inch, Wi-Fi, 64GB) - Space Gray (4th Generation)',
     rating: '4.9 out of 5 stars',
@@ -142,8 +143,7 @@ export const products = [
     categories: [],
   },
   {
-    title:
-      '2021 Apple iMac (24-inch, Apple M1 chip with 8‑core CPU and 7‑core GPU, 8GB RAM, 256GB) - Silver',
+    title: '2021 Apple iMac (24-inch, Apple M1 chip, 8GB RAM, 256GB) - Silver',
     manufacturer: 'Visit the Apple Store',
     countReview: 0,
     answeredQuestions: 0,

@@ -1,0 +1,16 @@
+2021-5-24
+
+models
+
+product : {
+  sellers : [seller_id],
+  name: 'iphone pro',
+  price: 599
+  addedBy : store_id ,  
+}
+
+
+- Seller can add products to DB (name, detials, price)
+
+when seller is adding product name, show suggestions if product already added by another seller
+
