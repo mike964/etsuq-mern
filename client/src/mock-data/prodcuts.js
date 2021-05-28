@@ -1,6 +1,6 @@
 export const products = [
   {
-    _id: '18533221',
+    _id: 'B08J66ZMY7',
     title:
       '2020 Apple iPad Air (10.9-inch, Wi-Fi, 64GB) - Space Gray (4th Generation)',
     rating: '4.9 out of 5 stars',
@@ -102,36 +102,6 @@ export const products = [
         images: [],
         variationList: ['Style: WiFi', 'Size: 64GB', 'Color: Space Gray'],
       },
-      {
-        text: 'I purchased this as a sort-of alternative to my laptop. Just something to surf the web and social media on and play the occasional game. The speakers on this thing are INCREDIBLE. So loud and full of depth, it’s great to stream music off of. Totally recommend this for the casual user, and with it’s new chipset, this thing can handle some serious multitasking for the not-so casual. If you’re on the fence about buying an iPad Pro, I recommend you consider this as an option instead, unless video editing is something you’re planning to do constantly. I have no quarrel with this product! It has served me well so far.',
-        date: 'Reviewed in the United States on October 25, 2020',
-        rating: '5.0 out of 5 stars',
-        title: 'Great for the casuals, and then some',
-        userName: 'Dylan',
-        url: '/gp/customer-reviews/R3OYG24ZXEWVO5/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08J66ZMY7',
-        images: [],
-        variationList: ['Style: WiFi', 'Size: 64GB', 'Color: Space Gray'],
-      },
-      {
-        text: "I held off replacing my iPad Air 2 in hopes the Air 4 would be worth it. So far, the Air 4 has worked flawlessly. The migration was so easy and fast; just backup old iPad to iCloud then using the same Apple ID do a Restore from Backup to the new iPad. All my apps and their associated data was installed in Air 4. Incredible! The graphics are beautiful, the new CPU is very fast, I've been an iPhone 11 user for a while so the absence of the Home button wasn't a big deal, but I do find myself reaching to the where the Home button used to be. I had considered the low-end iPad Pro but Air 4 costs less and for my needs, gets the job done. You won't be disappointed. PS- I got free next day shipping with Amazon, too. That's a big plus.",
-        date: 'Reviewed in the United States on November 9, 2020',
-        rating: '5.0 out of 5 stars',
-        title: 'iPad Air 4 Rocks',
-        userName: 'Jim Pierson',
-        url: '/gp/customer-reviews/R1ICAMBG9NEM6D/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08J66ZMY7',
-        images: [],
-        variationList: ['Style: WiFi', 'Size: 64GB', 'Color: Space Gray'],
-      },
-      {
-        text: 'I think this particular iPad will be a pretty big deal for those looking for (almost) iPad Pro power and functionality, with a slightly better price tag. I love my purchase, and this new iPad Air is really a nice step up from the iPad 7th gen that I’m trading in. I highly recommend this new iPad Air!!',
-        date: 'Reviewed in the United States on November 1, 2020',
-        rating: '5.0 out of 5 stars',
-        title: 'The New iPad Air Is A Hit!!',
-        userName: 'Brian S.',
-        url: '/gp/customer-reviews/R11DG3EPSOUKI9/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B08J66ZMY7',
-        images: [],
-        variationList: ['Style: WiFi', 'Size: 256GB', 'Color: Space Gray'],
-      },
     ],
     productSpecification: [],
     mainImage: {
@@ -139,7 +109,6 @@ export const products = [
         'https://images-na.ssl-images-amazon.com/images/I/719UcXKzXHL._AC_SX679_.jpg',
       imageResolution: '679 x 679',
     },
-    boo: [],
     categories: [],
   },
   {
@@ -149,8 +118,10 @@ export const products = [
     answeredQuestions: 0,
     rating: null,
     asin: 'B0932HVSYM',
+    _id: 'B0932HVSYM',
     sizeSelection: [],
     soldBy: 'Amazon.com',
+    sellers: ['129218896', '232453563'],
     fulfilledBy: 'Amazon.com',
     sellerId: null,
     warehouseAvailability:
@@ -233,6 +204,7 @@ export const products = [
     answeredQuestions: 350,
     rating: '4.8 out of 5 stars',
     asin: 'B08N5LNQCX',
+    _id: 'B08N5LNQCX',
     sizeSelection: [],
     soldBy: 'Amazon.com',
     fulfilledBy: 'Amazon.com',

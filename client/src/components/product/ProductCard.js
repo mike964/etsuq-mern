@@ -9,18 +9,23 @@ const ProductCard = ({ product }) => {
     price,
   } = product
   return (
-    <div className=" col-md-4 col-sm-6 px-2 mb-4">
-      <div className="card product-card my-3 p-3 rounded text-center">
+    <div className="col-lg-3 col-md-4 col-sm-6 px-2 mb-3">
+      <div className="card product-card rounded text-center">
         <ProductCardActions />
         {/* <span className="badge bg-danger badge-shadow">Sale</span> */}
 
         <div className="product-img-box">
           <Link to={`/product/slugg/${product.asin}`}>
-            <img src={imageUrl} alt="Product" className="product-img" />
+            <img
+              src={imageUrl}
+              alt="Product"
+              className="product-img"
+              style={{ maxHeight: '200px' }}
+            />
           </Link>
         </div>
         <div className="card-body py-2">
-          <div className="x" style={{ maxHeight: '54px', overflow: 'hidden' }}>
+          <div className="product-title-container">
             <Link
               to={`/product/slugg/${product.asin}`}
               className="product-title"
@@ -48,20 +53,11 @@ const ProductCard = ({ product }) => {
           <button
             className="btn btn-primary btn-sm d-block w-100 mb-2"
             type="button"
+            style={{ background: '#27a150', border: 'none' }}
           >
             <i className="ci-cart fs-sm me-1" />
-            Add to Cart
+            Sellers
           </button>
-          <div className="text-center">
-            <a
-              className="nav-link-style fs-ms"
-              href="#quick-view-electro"
-              data-bs-toggle="modal"
-            >
-              <i className="ci-eye align-middle me-1" />
-              Quick view
-            </a>
-          </div>
         </div>
       </div>
       <hr className="d-sm-none" />

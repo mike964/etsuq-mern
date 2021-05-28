@@ -4,13 +4,19 @@ import { Row, Col, Image, ListGroup, Card, Button, Form } from 'react-bootstrap'
 import MsgAlert from '../components/MsgAlert'
 import Meta from '../components/Meta'
 import Rating from '../components/Rating'
-import { getProductById } from '../mock-data/mock-actions'
+import {
+  getProductById,
+  getProductSellers,
+  getProductSellers_mk,
+} from '../redux/actions/mock-actions'
+import SellersList from '../components/Seller/SellersList'
 
 const ProductPg = ({ history, match }) => {
   console.log('# ProductPg mounted.')
   const [qty, setQty] = useState(1) // quantity for Select
 
   const [product, setProduct] = useState({})
+  const [sellers, setSellers] = useState([])
   const error = ''
   const loading = false
 
@@ -21,6 +27,11 @@ const ProductPg = ({ history, match }) => {
       ...x,
       image: x.mainImage.imageUrl,
     })
+
+    console.log(x.asin)
+    let xx = getProductSellers_mk(x.asin)
+    console.log(xx)
+    setSellers(xx)
   }, [])
 
   const Loader = <span className="x"></span>
@@ -107,13 +118,17 @@ const ProductPg = ({ history, match }) => {
                     //  onClick={ addToCartHandler }
                     //  disabled={product.countInStock === 0}
                   >
-                    See Sellers
+                    Sellers list
                   </Button>
                 </ListGroup.Item>
               </ListGroup>
             </Col>
           </Row>
-          <Row className="mb-3 box-segment p-3">x</Row>
+          <Row className="mb-3 box-segment p-3">
+            <div className="w-100">
+              <SellersList sellers={sellers} />
+            </div>
+          </Row>
           <Row>
             {/* <Col md={ 6 }>
           <h2>Reviews</h2>

@@ -2,9 +2,9 @@ import React from 'react'
 
 const AuthBtns = () => {
   return (
-    <span className="x">
+    <span className="white">
       <a
-        className="navbar-tool ms-1 ms-lg-0 me-n1 me-lg-2"
+        className="navbar-tool ms-1 ms-lg-0 me-n1 me-lg-2 white"
         href="#signin-modal"
       >
         Log In

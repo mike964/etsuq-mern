@@ -9,8 +9,8 @@ const App = () => {
   return (
     <Router>
       <Header />
-      <main className="bg-w" style={{ minHeight: '600px' }}>
-        <div className="container p-5 bg-w">
+      <main style={{ minHeight: '600px' }}>
+        <div className="container py-5">
           {/* <HomePg /> */}
           <Route path="/" component={HomePg} exact />
           <Route path="/product/:slug/:code" component={ProductPg} />

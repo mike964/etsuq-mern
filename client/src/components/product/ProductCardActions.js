@@ -2,13 +2,9 @@ import React from 'react'
 
 const ProductCardActions = () => {
   return (
-    <div className="product-card-actions d-flex align-items-center">
-      <a className="btn-action nav-link-style me-2" href="#">
-        <i className="ci-compare me-1" />
-        Compare
-      </a>
-      <button
-        className="btn-wishlist btn-sm"
+    <div className="product-card-actions  p-1">
+      {/* <button
+        className="btn-wishlistt no-style btn-sm"
         type="button"
         data-bs-toggle="tooltip"
         data-bs-placement="left"
@@ -17,7 +13,7 @@ const ProductCardActions = () => {
         aria-label="Add to wishlist"
       >
         <i className="bi-heart" />
-      </button>
+      </button> */}
     </div>
   )
 }

@@ -1,27 +1,10 @@
-body {
-  font-size: 16px;
-  /* background-color: #f5f5f5;  */
-  /* background-color: #f6f6f6; */
-  background-color: #eaeded;
-  margin: 0;
-  font-family: var(--bs-font-sans-serif);
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-}
 .app {
   min-height: 900px;
   /* background-color: rgb(255, 255, 255); */
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  /* display: block; */
-}
-
 a {
-  color: #373e3e;
+  color: #444;
 }
 a:hover {
   color: #7cb9b9;
@@ -91,10 +74,18 @@ a:hover {
   max-height: 500px;
   overflow: hidden;
 }
+.product-card:hover {
+  box-shadow: 0 2px 17px 0 rgb(0 0 0 / 9%);
+  transform: translateY(-2px);
+}
 
 .product-img-box {
-  padding: 10px;
-  height: 220px;
+  /* padding: 4px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  /* border: 3px solid green; */
   overflow: hidden;
   text-align: center;
 }
@@ -107,11 +98,20 @@ a:hover {
   vertical-align: middle;
 }
 
+.product-title-container {
+  height: 48px;
+  display: block;
+  overflow: hidden;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
 a.product-title {
   color: #2e333d;
   text-decoration: none;
-  font-size: 1.2rem;
-  max-height: 100px;
+  font-size: 1rem;
+  font-weight: 500;
+  /* line-height: 1opx; */
 }
 a.product-title:hover {
   text-decoration: underline;
@@ -143,4 +143,58 @@ a.product-title:hover {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   overflow: hidden;
+}
+
+ul.stores-list {
+  list-style: none;
+}
+ul.stores-list > li {
+  position: relative;
+  display: block;
+  /* padding: 0.75rem 1.25rem; */
+  background-color: #fff;
+  /* border: 1px solid rgba(0, 0, 0, 0.125); */
+  margin-bottom: 0.4rem;
+  border-radius: 0.4rem;
+}
+
+.navbar-main {
+  /* position: fixed; */
+  /* top: 0; */
+  /* right: 0; */
+  /* left: 0; */
+  /* z-index: 100; */
+  background: #fff;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.08);
+}
+
+.navbar-1 {
+  background-color: #fafafa;
+  border-bottom: 1px solid rgb(161, 161, 161);
+}
+
+.navbar-2 {
+  background: #fff;
+}
+
+.bestbuy-logo {
+  font-weight: 700;
+  font-size: 24px;
+  color: #1055e9;
+  /* color: #ffffff; */
+  /* background-color: #1055e9; */
+  text-align: center;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 0px 14px;
+}
+.bestbuy-logo:hover {
+  /* background-color: #2d70ff; */
+}
+.bestbuy-logo > a {
+  color: #ffffff;
+  color: #0e47e2;
+}
+.bestbuy-logo > a:hover {
+  text-decoration: none;
 }

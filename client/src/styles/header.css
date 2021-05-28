@@ -1,0 +1,23 @@
+header {
+  border-bottom: 1px solid #959595;
+}
+header > .first-row {
+  /* background-color: #169cf5; */
+  background-color: #fff;
+  border-bottom: 1px solid #e9e9e9;
+  color: #fff;
+}
+header > .second-row {
+  /* background-color: #169cf5; */
+  /* background-color: #04aa6d; */
+  /* color: #fff; */
+}
+.navbar-brand {
+  color: #fff;
+  color: #008eec;
+  color: #04aa6d;
+}
+
+.nav-link {
+  /* color: white; */
+}
