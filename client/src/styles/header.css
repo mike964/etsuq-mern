@@ -1,14 +1,15 @@
 header {
-  border-bottom: 1px solid #959595;
+  border-bottom: 1px solid #aaaaaa;
 }
 header > .first-row {
-  /* background-color: #169cf5; */
+  background-color: #169cf5;
   background-color: #fff;
-  border-bottom: 1px solid #e9e9e9;
+  border-bottom: 1px solid #f0f0f0;
   color: #fff;
 }
 header > .second-row {
   /* background-color: #169cf5; */
+  /* background-color: #04aa6d; */
   /* background-color: #04aa6d; */
   /* color: #fff; */
 }
@@ -18,6 +19,12 @@ header > .second-row {
   color: #04aa6d;
 }
 
-.nav-link {
-  /* color: white; */
+.navbar-second-row {
+  /* background-color: #04aa6d; */
+}
+.white-link > a {
+  color: white !important;
+}
+.navbar-2-links > a {
+  color: white !important;
 }

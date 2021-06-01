@@ -5,7 +5,7 @@ const Searchbar = () => {
   return (
     <InputGroup className="x" size="lg">
       <FormControl
-        placeholder="Search for products"
+        placeholder={'ابحث عن منتج'}
         aria-label="Recipient's username"
         aria-describedby="basic-addon2"
       />

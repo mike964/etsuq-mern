@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import OverText from '../common/OverText'
 import ProductCardActions from './ProductCardActions'
 
 const ProductCard = ({ product }) => {
@@ -26,12 +27,14 @@ const ProductCard = ({ product }) => {
         </div>
         <div className="card-body py-2">
           <div className="product-title-container">
-            <Link
-              to={`/product/slugg/${product.asin}`}
-              className="product-title"
-            >
-              {title}
-            </Link>
+            <OverText hoverText={title} place="right">
+              <Link
+                to={`/product/slugg/${product.asin}`}
+                className="product-title"
+              >
+                {title}
+              </Link>
+            </OverText>
           </div>
           <div className="d-flex justify-content-between">
             <div className="product-price">
